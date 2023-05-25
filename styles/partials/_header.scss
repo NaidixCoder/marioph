@@ -1,0 +1,50 @@
+.nav-item a {
+    color: #fff;
+    font-size: 1.2rem;
+
+    &:visited {
+        color: #fff;
+    }
+
+    &:hover {
+        color: $main-color;
+        position: relative;
+    }
+}
+
+.navbar-toggler {
+    margin-right: 5%;
+    background-color: $main-color;
+}
+
+.navbar-toggler-icon {
+    width: 25px;
+    height: 35px;
+}
+
+.navbar-brand {
+    margin-left: 5%;
+    color: #FFF;
+    font-size: 2rem;
+
+    &:visited {
+        color: #FFF;
+    }
+
+    &:hover {
+        color: #FFF;
+    }
+
+    &:link {
+        color: #FFF;
+    }
+
+    span {
+        color: $main-color;
+    }
+}
+
+
+.active {
+    color: $main-color !important;
+}
